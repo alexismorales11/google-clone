@@ -40,6 +40,7 @@ nav .nav-right-section img{
     border-radius: 50px;
     margin-left: 10px;
 }
+
 main{
     margin-top: 140px;
     text-align: center;
@@ -147,4 +148,60 @@ footer .footer-right{
 footer ul li a{
     margin: 10px;
     color: #5f6368;
+}
+@media screen and (max-width: 768px){
+    footer ul li a {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 914px){
+    main .main-logo img {
+        width: 200px;
+    }    
+    main .main-input .search-icon {
+        width: 13px;
+    }
+    main .main-logo {
+        width: 100%;
+    }
+    main .main-input {
+        width: 90%;
+    }
+    main .main-input-container{
+        width: 100%;
+    }
+    main .main-input input{
+        width: 80%;
+    }
+    main .main-buttons {
+        width: 100%;
+    }
+    footer {
+        grid-template-columns: none;
+        height: 80px;
+    }
+    footer ul li a {
+        font-size: 12px;
+    }
+    footer .footer-left {
+        justify-self: center;
+    }
+    footer .footer-right {
+        justify-self: center;
+    }
+}
+@media screen and (max-width: 430px){
+    footer ul li a {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 412px){
+    footer ul li a {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 370px){
+    footer ul li a {
+        font-size: 8px;
+    }
 }
