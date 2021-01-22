@@ -99,7 +99,7 @@ main .main-input .micro-icon{
 }
 main .main-buttons{
     width: 530px;
-    margin: 0 auto;
+    margin: 0 auto 150px auto;
 }
 main .main-buttons div{
     display: inline
